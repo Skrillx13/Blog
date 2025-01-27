@@ -1,0 +1,70 @@
+.bd-navbar {
+    padding: .75rem 0;
+    background-color: #7532FA;
+    box-shadow: 0 .5rem 1rem rgba(#000, .15), inset 0 -1px 0 rgba(#fff, .15);
+
+    a {
+        color: lightgray;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+    a:active {
+        color: #fff;
+    }
+
+}
+
+.offcanvas-lg {
+    background-color: #7532FA;
+}
+
+.navbar-toggler {
+    padding: 0;
+    margin-right: -.5rem;
+    border: 0;
+
+    &:first-child {
+      margin-left: -.5rem;
+    }
+
+    .bi {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+}
+
+.navbar-toggler,
+.nav-link {
+    padding-right: .25;
+    padding-left: .25;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+        color: #fff;
+    }
+
+    &.active {
+        color: #fff;
+    }
+}
+
+.theme-icon {
+    width: 18px;
+    height: 18px;
+    fill: lightgray;
+
+  }
+
+.theme-icon-active {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+  }

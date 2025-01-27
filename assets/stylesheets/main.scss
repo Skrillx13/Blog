@@ -1,0 +1,10 @@
+// Main Stylesheet
+// This stylesheet imports other styles from across the project, keeping things organized.
+
+// Bootstrap
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Styles
+@use "navbar";
+
+// Utilities

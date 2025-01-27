@@ -1,0 +1,7 @@
+# -- JavaScript Packages --
+node_modules
+
+## -- Website packages --
+.hugo_build.lock
+public
+resources

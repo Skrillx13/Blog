@@ -1,0 +1,13 @@
+title: Skrillx's Blog
+languageCode: en-uk
+baseURL: https://skrillx13.github.io/blog/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe:           true
+  highlight:
+    noClasses:          false
+  tableOfContents:
+    startLevel:         2
+    endLevel:           6

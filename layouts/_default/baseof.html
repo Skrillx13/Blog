@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    {{ partial "head.html" . }}
+    {{ $js := resources.Get "javascripts/colors.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $js.Permalink }}"></script> 
+</head>
+
+{{ partial "navbar.html" . }}
+
+<body>
+    {{ block "main" . }}{{ end }}
+    {{ partial "scripts.html" . }}
+</body>
+
+</html>

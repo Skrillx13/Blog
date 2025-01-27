@@ -1,0 +1,19 @@
+{
+  "name": "skrillxs-blog",
+  "version": "1.0",
+  "description": "A simple place for me to post my occasional thoughts in writing.",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "serve": "hugo server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skrillx13",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "hugo-bin": "^0.139.0",
+    "sass-embedded": "^1.83.4"
+  }
+}
